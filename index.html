@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dashboard App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="dashboard">
+      <h1>User Dashboard</h1>
+      <div id="user-input-main">
+        <input type="text" id="user-input" placeholder="Enter name">
+        <input type="email" id="user-email-input" placeholder="Enter email">
+        <button id="add-btn">Add</button>
+      </div>
+      <div id="update-container">
+        <input type="text" id="update-user-input">
+        <input type="text" id="update-user-email-input">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <h2 id="indicator"></h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

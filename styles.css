@@ -1,0 +1,93 @@
+#dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#user-input-main {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#user-input,
+#user-email-input,
+#update-user-input,
+#update-user-email-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+#user-input:focus,
+#user-email-input:focus,
+#update-user-input:focus,
+#update-user-email-input:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0c3d87;
+  color: white;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f4f6e4;
+}
+
+#update-container {
+  display: none;
+  margin-bottom: 20px;
+}
+
+#update-btn {
+  background-color: #2196F3;
+}
+
+#cancel-btn {
+  background-color: #f44336;
+}
+
+.edit-btn{
+  background-color: #7fbd82;
+}
+.edit-btn:hover {
+  background-color: #3e8e41;
+}
+.delete-btn{
+  background-color: #e94e5de3;
+  margin-left:10px;
+}
+.delete-btn:hover {
+  background-color: #b40b0b;
+}
+h1 {
+  color:#0c3d87;
+}
